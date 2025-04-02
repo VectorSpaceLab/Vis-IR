@@ -60,16 +60,20 @@ In this work, we formally define an emerging IR paradigm called Visualized Infor
 ```python
 import torch
 from transformers import AutoModel
+
 MODEL_NAME = "marsh123/UniSE-MLLM"
-model = AutoModel.from_pretrained(MODEL_NAME, trust_remote_code=True) # You must set trust_remote_code=True
+model = AutoModel.from_pretrained(MODEL_NAME, trust_remote_code=True)
+                                        # You must set trust_remote_code=True
 model.set_processor(MODEL_NAME)
+
 with torch.no_grad():
     device = torch.device("cuda:0")
     model = model.to(device)
     model.eval()
     query_inputs = model.data_process(
         images=["./assets/query_1.png", "./assets/query_2.png"],    
-        text=["After a 17% drop, what is Nvidia's closing stock price?", "I would like to see a detailed and intuitive performance comparison between the two models."],
+        text=["After a 17% drop, what is Nvidia's closing stock price?",
+              "I would like to see a detailed and intuitive performance comparison between the two models."],
         q_or_c="query",
         task_instruction="Represent the given image with the given query."
     )
