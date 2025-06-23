@@ -19,7 +19,9 @@
     <a href="https://huggingface.co/marsh123/UniSE">
         <img alt="Build" src="https://img.shields.io/badge/🤗 Model-UniSE MLLM-yellow">
     </a> 
-     
+     <a href="https://huggingface.co/BAAI/BGE-VL-Screenshot">
+        <img alt="Build" src="https://img.shields.io/badge/🤗 Model-BGE VL Screenshot-yellow">
+    </a> 
 </p>
 <h4 align="center">
     <p>
@@ -32,6 +34,10 @@
 </h4>
 
 ## News
+
+```2025-06-23``` 🎉🎉 We are pleased to share that our works, **MegaPairs** ([repo](https://github.com/VectorSpaceLab/MegaPairs), [paper](https://arxiv.org/abs/2412.14475)) and **Vis-IR** ([repo](https://github.com/VectorSpaceLab/Vis-IR), [paper](https://arxiv.org/pdf/2502.11431)), have been accepted to the **ACL 2025 Main Conference**!
+
+```2025-06-23``` 🚀🚀 We release [BGE-VL-Screenshot](https://huggingface.co/datasets/marsh123/MVRB), an enhanced version of UniSE_MLLM with improved multilingual capabilities.
 
 ```2025-04-06``` 🚀🚀 MVRB Dataset are released on Huggingface: [MVRB](https://huggingface.co/datasets/marsh123/MVRB)
 
