@@ -58,6 +58,7 @@
 ## Overview
 
 In this work, we formally define an emerging IR paradigm called Visualized Information Retrieval, or **VisIR**, where multimodal information, such as texts, images, tables and charts, is jointly represented by a unified visual format called **Screenshots**, for various retrieval applications. We further make three key contributions for VisIR. First, we create **VIRA** (Vis-IR Aggregation), a large-scale dataset comprising a vast collection of screenshots from diverse sources, carefully curated into captioned and questionanswer formats. Second, we develop **UniSE** (Universal Screenshot Embeddings), a family of retrieval models that enable screenshots to query or be queried across arbitrary data modalities. Finally, we construct **MVRB** (Massive Visualized IR Benchmark), a comprehensive benchmark covering a variety of task forms and application scenarios. Through extensive evaluations on MVRB, we highlight the deficiency from existing multimodal retrievers and the substantial improvements made by UniSE.
+![db6800d3-5e17-4b26-bcba-af6f64ebf4ea](https://github.com/user-attachments/assets/c5392c86-0aac-4ca9-bd93-774140f83bc5)
 
 ## Model Usage
 
