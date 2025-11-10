@@ -1,4 +1,4 @@
-<h1 align="center">Vis-IR: Unifying Search With Visualized Information Retrieval</h1>
+<h1 align="center">Any Information Is Just Worth One Single Screenshot: Unifying Search With Visualized Information Retrieval</h1>
 
 <p align="center">
     <a href="https://arxiv.org/abs/2502.11431">
